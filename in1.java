@@ -12,7 +12,7 @@ class child extends parent
   {
     System.out.println("this is child class");
   }
-  public static void main(System[]args)
+  public static void main(String[] args)
   {
     child c=new child();
     c.show();

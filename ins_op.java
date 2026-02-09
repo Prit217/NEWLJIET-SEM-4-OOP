@@ -6,6 +6,6 @@ class A
     if(a instanceof A)
       System.out.println("a is instance of class");
     else
-      System.out.println("a is not instance of class");
+      System.out.println("a is no instance of class");
   }
 }
