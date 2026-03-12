@@ -31,7 +31,7 @@ class axis implements bank {
 }
 public class bank_main {
     public static void main(String[] args) {
-        SBI sbi = new SBI(10000, 5);
+        SBI sbi = new SBI(7500,0.04);
         axis axis_bank = new axis(10000, 6);
         sbi.interest();
         axis_bank.interest();
