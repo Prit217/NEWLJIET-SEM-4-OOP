@@ -6,9 +6,9 @@ class ATM_withdrowal extends Thread
   }
   public static void main(String[] args)
   {
-    ATM t1=new ATM();
+    ATM_withdrowal t1=new ATM_withdrowal();
     t1.start(); 
-    ATM t2=new ATM();
+    ATM_withdrowal t2=new ATM_withdrowal();
     t2.start();
     t1.setName("user1");
     t2.setName("user2");
