@@ -1,4 +1,4 @@
-class Q9 {
+class Q1 {
     int acc_no=0;
     String name="";
     double balance=0.0;
@@ -20,7 +20,7 @@ class Q9 {
         balance = balance + amount;
     }
     public static void main(String[] args) {
-        Q9 ob = new Q9();
+        Q1 ob = new Q1();
         ob.setdata(123, "Prince" , 10000.00);
         ob.display();
         ob.deposit(20000);
