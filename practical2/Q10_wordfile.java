@@ -1,6 +1,5 @@
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 class Q10_wordfile {
@@ -9,7 +8,7 @@ class Q10_wordfile {
 
       if (args.length < 1) {
             System.out.println("file name provide in command line");
-        }
+      }
 
         String filename = args[0];
         int wordcount = 0;
@@ -25,11 +24,9 @@ class Q10_wordfile {
             }
 
             sc.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("Error: " + e.getMessage());
         }
         catch (Exception e) {
-            System.out.println("An error occurred: " + e.getMessage());
+            System.out.println(e);
         }
     }
 }

@@ -26,17 +26,9 @@ class Q5
         int pow=power(x,y);
         System.out.println(x+"^"+y+"="+pow);
       }
-      catch(NumberFormatException e)
-      {
-        System.out.println("invalid input: "+e.getMessage());
-      } 
-      catch(IllegalArgumentException e)
-      {
-        System.out.println("Error: "+e.getMessage());
-      }
       catch(Exception e)
       {
-        System.out.println("An error occurred: "+e.getMessage());
+        System.out.println(e);
       }
   }
 }

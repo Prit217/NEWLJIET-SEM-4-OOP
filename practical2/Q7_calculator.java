@@ -70,22 +70,10 @@ class Q7_calculator {
         // EXCEPTION HANDLING
         // -----------------------------------------------
 
-        } catch (NumberFormatException e) {
-            // When user enters letters instead of numbers
-            System.out.println("Error: Invalid number format!");
-            System.out.println("Please enter valid numbers (e.g., 10, 3.5)");
-
-        } catch (ArithmeticException e) {
-            // When division by zero occurs
-            System.out.println("Error: " + e.getMessage());
-
-        } catch (IllegalArgumentException e) {
-            // Wrong number of args or invalid operator
-            System.out.println("Error: " + e.getMessage());
 
         } catch (Exception e) {
             // Any other unexpected error
-            System.out.println("Unexpected error: " + e.getMessage());
+            System.out.println(e);
         }
     }
 }

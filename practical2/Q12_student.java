@@ -1,4 +1,3 @@
-import java.util.*;
 import java.io.*;
 
 class Q12_student
@@ -38,7 +37,8 @@ class Studentmanager
 
         System.out.println("Student details written to file successfully.");
 
-        FileInputStream fis = new FileInputStream("students.txt");
+        FileInputStream fis = new FileInputStream("students.txt"); 
+      
         int i;
         System.out.println("Student details read from file:");
         while((i = fis.read()) != -1)
@@ -50,7 +50,7 @@ class Studentmanager
       }
       catch(Exception e)
       {
-        System.out.println("Error: " + e.getMessage());
+        System.out.println(e);
       }
   }
 }

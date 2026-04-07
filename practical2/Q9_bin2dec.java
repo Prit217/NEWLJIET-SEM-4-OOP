@@ -6,10 +6,10 @@ class Q9_bin2dec {
         for (int i = 0; i < binaryString.length(); i++) {
             char ch = binaryString.charAt(i);
             if (ch != '0' && ch != '1') {
-                throw new NumberFormatException("Invalid binary number: " + binaryString);
-            }
+             throw new NumberFormatException("Invalid binary number: " + binaryString);
+            }  
         }
-    
+
 
     int decimal=0;
     int power=1;

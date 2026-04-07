@@ -18,7 +18,7 @@ class Q8_bankaccount {
                 System.out.println("Withdrawal successful! New balance: " + balance);
             }
         } catch (Exception e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println(e);
         }
     }
 

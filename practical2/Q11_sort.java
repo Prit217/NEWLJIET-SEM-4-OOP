@@ -6,7 +6,7 @@ class Q11_sort
       Scanner sc = new Scanner(System.in);
       ArrayList<Integer> number = new ArrayList<>();
 
-      System.out.println("Enter integers:");
+      System.out.print("Enter integers:");
       int count = sc.nextInt();
 
       System.out.println("Enter " + count + " integers:");
@@ -17,9 +17,9 @@ class Q11_sort
       Collections.sort(number, Collections.reverseOrder());
 
       System.out.println("Sorted integers in descending order:");
-      for (int num : number) {
-          System.out.print(num + " ");
-      }
+     
+          System.out.print(number);
+      
 
   }
 }

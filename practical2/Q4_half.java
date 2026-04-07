@@ -4,8 +4,6 @@ interface Function {
     int evaluate(int n);  // abstract method 
 }
 // Class Half implementing Function interface 
-
-
 class Q4_half implements Function {
 
     // Implementation of evaluate() method 

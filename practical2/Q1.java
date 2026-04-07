@@ -20,7 +20,7 @@ class Q1 {
         balance = balance + amount;
     }
     public static void main(String[] args) {
-        Q1 ob = new Q1();
+        Q1 ob = new Q1();   
         ob.setdata(123, "Prince" , 10000.00);
         ob.display();
         ob.deposit(20000);
